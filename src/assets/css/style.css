@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#eye1 {
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.tubuhSection {
+    height: 100%;
+    overflow-y: hidden !important;
+}
+.main-image-2 {
+    position: absolute;
+    height: 90% ;
+    margin-top: 4%;
+    margin-left: -5%;
+    display: inline-block;
+}
+.main-image {
+    position: absolute;
+    height: 90% ;
+    margin-left: 25%;
+    margin-top: 1%;
+    display: inline-block;
+}
+
+#content {
+    background-image: url('../img/content.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#menu {
+    background-image: url('../img/menu.jpg');
+    background-size: cover;
+    padding: 50px;
+} 
+
+.card-title {
+    display: inline-block;
+    border-radius: 20px !important;
+    background-color: rgb(214, 96, 0);
+    text-decoration: none;
+    color: white;
+}
+.container {
+    font-family: 'Montserrat', sans-serif;
+}
+.card-img-top {
+    padding: 10px;
+    border: solid black 2px;
+    border-radius: 20px;
+}
+.card {
+    border-radius: 20px;
+    transition: all ease-in-out 1s;
+}
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: -1px 1px 30px 0px rgb(0, 68, 253);
+    transition: all ease-in-out 1s;
+    cursor: pointer;
+}
+
+.link1 {
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.link1:hover {
+    transition: all ease-in-out 0.9s;
+    color: white;
+    background-color: rgb(65, 120, 238);
+    text-decoration: none ;
+    border: 1px solid rgb(49, 50, 51);
+}
+
+
+.button {
+    position: absolute;
+    margin-right: 20px;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 5px;
+    transition: all ease-in-out 0.5s;
+}
+
+.button:hover{
+    transform: scale(1.2);
+    box-shadow: -1px 1px 30px 0px rgb(79, 127, 214);
+} 
+
+#gigi1:hover {
+    cursor: pointer;
+}
+
+#rambut {
+    cursor: pointer;
+}
+
+#eye2 {
+    cursor: pointer;
+}
